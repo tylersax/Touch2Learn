@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/quizLayout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <Button
+            android:id="@+id/nextQuizButton"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/next_quiz" />
+
+        <Button
+            android:id="@+id/speakButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/speak" />
+
+        <ImageView
+            android:id="@+id/dropOnImage"
+            android:layout_width="320dp"
+            android:layout_height="400dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/body" />
+
+        <ImageView
+            android:id="@+id/partImage1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="440dp"
+            android:contentDescription="cpu"
+            android:src="@drawable/cpu" />
+
+        <ImageView
+            android:id="@+id/partImage2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="440dp"
+            android:contentDescription="plug"
+            android:src="@drawable/plug" />
+
+        <ImageView
+            android:id="@+id/partImage3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="224dp"
+            android:layout_marginTop="440dp"
+            android:contentDescription="bus"
+            android:src="@drawable/bus" />
+    </RelativeLayout>
+
+</RelativeLayout>

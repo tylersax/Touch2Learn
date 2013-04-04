@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TouchActivity!</string>
+    <string name="app_name">Touch</string>
+    <string name = "welcome">Welcome!</string>
+    <string name = "game_explanation">Welcome! This game will teach you the basic parts of a computer, and how they work. Did you know that the computer and the human body have a lot in common? Enter your name and click \“Get Started\” below to learn how. After going through two lessons, you will take a quiz to test your knowledge. Keep an eye out for this icon. If you ever want help from me, just drag an image on top of it. Have fun!"</string>
+    <string name = "get_started">Get Started</string> 
+    <string name = "enter_name">Please enter your name:</string>
+    <string name = "menu_explanation">Choose a lesson below. Once you have completed both, take the quiz to test your knowledge.</string>
+    <string name = "checkbox1">Learn about the external parts of a computer</string>
+	<string name = "checkbox2">Learn about the internal parts of a computer</string>
+	<string name = "take_quiz">Take the quiz</string>
+	<string name = "congratulations">Congratulations on completing the quizzes! You can now use the buttons below to share your score or start over.</string>
+    <string name = "share_scores">Share Scores</string>
+    <string name = "back_intro">Go back to Intro Screen</string>
+    <string name = "lesson1">The CPU</string>
+    <string name = "lesson1_description">The CPU is the brain of the computer.  Just like the brain sends information to different parts of your body, the CPU sends instructions to various parts of a computer. The CPU even performs operations such as math so the computer runs smoothly.</string>
+    <string name = "lesson2">The Power Supply</string>
+    <string name = "lesson2_description">The power supply is the heart of the computer. Just like the heart pumps blood to all of your organs, the power supply sends electricity that keeps the different parts of the computer running. </string>
+    <string name = "lesson3">The Bus System</string>
+    <string name = "lesson3_description">The Bus system is the nervous system of the computer. Just like nerves connect different parts of the body and allow them to communicate, the Bus transfers information between different pieces of a computer.</string>
+    <string name = "lesson4">The Webcam</string>
+    <string name = "lesson4_description">The webcam is the eye of the computer. Just like your eyes allow you to see what’s around you, the webcam allows the computer to see and interact with the world around it.</string>
+    <string name = "lesson5">The Speakers </string>
+    <string name = "lesson5_description">The speakers are the mouth of the computer. Just like you use your mouth to talk and sing, the speakers output sound from the computer, whether it is music or the sound effects from a game.</string>
+    <string name = "lesson6">The Microphone</string>
+    <string name = "lesson6_description">The microphone is the ear of the computer. Just like you hear things with your ears, the microphone lets the computer record sounds from the world around it.</string>
+</resources>
